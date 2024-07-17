@@ -1,0 +1,65 @@
+    1  cd Repository
+    2  ls 
+    3  cd Desktop
+    4  ls 
+    5  cd Repository
+    6  whoami
+    7  ifconfig
+    8  system_profiler
+    9  help
+   10  cd ..
+   11  mkdir hyi
+   12  ls
+   13  system_info
+   14  systeminfo
+   15  clear
+   16  ipconfig
+   17  ls
+   18  cd Desktop
+   19  ls 
+   20  cd Repository
+   21  git config --global user.name "Oleksandr Mordovin"
+   22  git config --global user.email sashamordovin77@gmail.com
+   23  git clone https://github.com/mordoviin/HW_10.git
+   24  ls
+   25  cd HW_10
+   26  touch text_ignore.txt
+   27  ls
+   28  git status
+   29  nano .gitignore
+   30  git add ignore_text.txt
+   31  git status
+   32  git commit -m
+   33  git status
+   34  git add .gitignore
+   35  git status
+   36  git commit -m 
+   37  git commit -m "New file created"
+   38  git status
+   39  git log
+   40  git branch
+   41  touch main_text.txt
+   42  ls
+   43  git add
+   44  git status
+   45  git add main_text.txt
+   46  git status
+   47  git commit -m "new text created"
+   48  git log
+   49  git branch develop
+   50  git branch
+   51  chekout develop
+   52  git chekout develop
+   53  git checkout develop
+   54  touch develop_test.txt
+   55  git add develop_test.txt
+   56  git commit -m "develop_test created"
+   57  nano develop_test.txt
+   58  git status
+   59  git add develop_test.txt
+   60  git commite -m "develop_test changed"
+   61  git commit -m "develop_test changed"
+   62  git checkout main
+   63  git merge develop
+   64  git log
+   65  history > command_list.csv
